@@ -1,0 +1,133 @@
+:root{
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url(../img/bg.jpg);
+   font-family: 'Arial', Times, serif;
+   color:rgb(0, 0, 0);
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.logo{
+    margin-left: 400px;
+    color: rgb(207, 13, 207);
+    font-family: 'Arial Black', Times;
+    font-size:60px;
+}
+
+nav a{
+    text-decoration:none;
+    color:rgba(212, 22, 246, 0.842);
+    margin-right: 10px;
+}
+
+
+nav a:hover{
+    color:rgb(235, 18, 18);
+}
+
+.logo-bebel{
+    font-size:16px;
+    height:300px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-bebel .descricao{
+    font-size:30px  ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.card-container {
+    background-color:violet;
+    border-radius: 20px;
+    padding: 18px;
+    max-width:550px;
+    
+}
+
+.titulo{
+
+    font-size: 90px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(7, 0, 4, 0.924);
+    border:none;
+    color: rgb(255, 255, 255);
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:rgb(230, 10, 200);
+    color:rgb(255, 254, 254);
+}
+
+
+.box-bijus{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    
+}
+
+
+.carrosel-bijus{
+    margin-top:5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    justify-content: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
